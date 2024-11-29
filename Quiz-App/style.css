@@ -6,7 +6,7 @@
 
 body {
     color: rgb(0, 0, 0);
-    background: linear-gradient(to bottom, #132d21, #45a57a);
+    background: linear-gradient(296deg, #000000, #45a57a);
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
 }
@@ -64,7 +64,7 @@ section {
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.503);
+    background-color: #bce3e356;
     color: white;
     position: relative;
     height: 75%;
