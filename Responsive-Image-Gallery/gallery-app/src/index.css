@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Biheastra';
+  src: url('./assets/fonts/Biheastra-modern-serif-Font/Biheastra/Biheastra.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Biheastra-modern-serif-Font/Biheastra/Biheastra.woff2') format('woff2'), /* Modern Browsers */
+       url('./assets/fonts/Biheastra-modern-serif-Font/Biheastra/Biheastra.otf') format('opentype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
